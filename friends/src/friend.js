@@ -3,11 +3,12 @@ import React from 'react';
 const friend = props => {
   const bold = {
     fontWeight: 'bold',
+    
   }
 
   const deleteFriend = (e) => {
     e.preventDefault();
-    props.deleteHandler(props.id);
+    props.deleteFriend(props.id);
   }
 
   return(
