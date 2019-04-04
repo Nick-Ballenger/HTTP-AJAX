@@ -1,0 +1,88 @@
+.App {
+  
+  background-image: linear-gradient(to bottom, #4a6ea4, #0090c8, #00b2d2, #00d1be, #12eb91);
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+nav{
+  display:flex;
+  justify-content: center;
+  border-bottom:2px solid black;
+  
+}
+
+.link{
+  margin-left:15px;
+  text-decoration: none;
+  color:white;
+  font-size: 20px;
+
+  
+}
+.friend{
+  display:flex;
+  flex-direction:column;
+  /* justify-content: center; */
+  align-items:center;
+  border:2px solid black;
+  width:300px;
+  margin:15px;
+  border-radius:4px;
+  background-image: linear-gradient(to bottom, #4a6ea4, #6d67b2, #9c58b0, #ca3d9a, #eb1273);
+  
+}
+.friend-wrapper{
+  display:flex;
+  justify-content:center;
+  
+}
+h1{
+  display:flex;
+  justify-content: center;
+}
+.input-wrapper{
+  display:flex;
+  justify-content: center;
+  
+}
+.btn-wrapper{
+  display:flex;
+  justify-content: center;
+  margin-top:20px;
+  
+  
+}
+button{
+ background:orange;
+  padding:15px;
+  font-size: 15px;
+  border-radius:8px;
+  margin:15px;
+}
+input{
+  margin:10px;
+  padding:10px;
+}
+.friend-card{
+  height:1000px;
+}
