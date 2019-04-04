@@ -65,13 +65,15 @@ class PostFriend extends React.Component {
                onChange={this.handleChange}
                value={this.state.friend.name}
                />
-        <input type='text'
+        <input type='number'
                name='age'
                placeholder='Age'
                onChange={this.handleChange}
                value={this.state.friend.age}
                />
-        <input type='text'
+        <input type='email'
+               required='required'
+               pattern="[a-z0-9._%+-]+@[a-z0-9.-]+.[a-z]{2,4}$"
                name='email'
                placeholder='Email'
                onChange={this.handleChange}
