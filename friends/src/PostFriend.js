@@ -58,6 +58,7 @@ class PostFriend extends React.Component {
     return(
       <form className='friend-card'>
         <h1>Friend Form</h1>
+        <div className="input-wrapper">
         <input type='text'
                name='name'
                placeholder='Name'
@@ -76,6 +77,8 @@ class PostFriend extends React.Component {
                onChange={this.handleChange}
                value={this.state.friend.email}
                />
+        </div>
+       
 
          {this.props.postError ? (
              <p className='error'>{this.props.postError}</p>
@@ -93,7 +96,7 @@ class PostFriend extends React.Component {
            <p className='success'>{this.props.updateSuccessMessage}</p>
          ) : null}
 
-        <div className='btn-container'>
+        <div className='btn-wrapper'>
           <button type='submit' onClick={this.postFriend}>
               Add Friend
            </button>

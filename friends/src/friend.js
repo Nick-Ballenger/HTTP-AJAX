@@ -12,7 +12,8 @@ const friend = props => {
   }
 
   return(
-    <div className='friend'>
+      <div className="friend-wrapper">
+      <div className='friend'>
       <h2>{props.friend.name}</h2>
       <p><span style={bold}>Age:</span> {props.friend.age}</p>
       <p><span style={bold}>Email:</span> {props.friend.email}</p>
@@ -20,6 +21,8 @@ const friend = props => {
         Delete
       </button>
     </div>
+      </div>
+    
   );
 }
 
